@@ -23,46 +23,46 @@
 
 // Мой ответ
 
-'use strict';
+// 'use strict';
 
-const numberOfFilms = prompt ('Сколько фильмов вы уже посмотрели?', '');
+// const numberOfFilms = prompt ('Сколько фильмов вы уже посмотрели?', '');
 
-const answer1 = prompt ('Один из последних просмотренных фильмов?', '');
+// const answer1 = prompt ('Один из последних просмотренных фильмов?', '');
 
-const answer11 = prompt ('Один из последних просмотренных фильмов?', '');
+// const answer11 = prompt ('Один из последних просмотренных фильмов?', '');
 
-const answer2 = prompt ('На сколько оцените его?', '');
+// const answer2 = prompt ('На сколько оцените его?', '');
 
-const answer22 = prompt ('На сколько оцените его?', '');
-
-const personalMovieDB = {
-	count: console.log(numberOfFilms),
-	movies: console.log(answer1,answer2),
-	actors: {},
-	genres: [],
-	privat: false
-};
-
-// Его ответ
-
-// 'use strict'
-
-// const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели?', '');
+// const answer22 = prompt ('На сколько оцените его?', '');
 
 // const personalMovieDB = {
-// 	count: numberOfFilms,
-// 	movies: {},
+// 	count: console.log(numberOfFilms),
+// 	movies: console.log(answer1,answer2),
 // 	actors: {},
 // 	genres: [],
 // 	privat: false
 // };
 
-// const a = prompt('Один из последних просмотренных фильмов?', ''),
-// 		b = prompt('На сколько оцените его?', ''),
-// 		c = prompt('Один из последних просмотренных фильмов?', ''),
-// 		d = prompt('На сколько оцените его?', '');
+// Его ответ
 
-// 		personalMovieDB.movies[a] = b;
-// 		personalMovieDB.movies[c] = d;
+'use strict'
 
-// console.log(personalMovieDB);
+const numberOfFilms = +prompt ('Сколько фильмов вы уже посмотрели?', '');
+
+const personalMovieDB = {
+	count: numberOfFilms,
+	movies: {},
+	actors: {},
+	genres: [],
+	privat: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+		b = prompt('На сколько оцените его?', ''),
+		c = prompt('Один из последних просмотренных фильмов?', ''),
+		d = prompt('На сколько оцените его?', '');
+
+		personalMovieDB.movies[a] = b;
+		personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
