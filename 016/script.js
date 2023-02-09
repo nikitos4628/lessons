@@ -42,4 +42,4 @@ const calcl = (a, b) => {
 	return a + b;
 };
 
-calcl();
+calcl(); 
