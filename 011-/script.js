@@ -1,4 +1,56 @@
-"use strict"
+'use strict';
+
+// udemy
+
+let number = 5;
+const leftBorderWidth = 1;
+
+number = 10;
+console.log(number);
+
+const obj = {
+	a: 50
+};
+
+obj.a = 10;
+
+console.log(obj);
+
+console.log(name);
+var name = 'Ivan';
+
+{
+	let result = 50;
+}
+
+console.log(result);
+
+alert(5);
+[].push('a');
+
+const vehicleBodyWidth = 5000;
+const vehicleBodyLength = 4000;
+
+console.log('Ширина кузова автомобиля: ' + vehicleBodyWidth + ', длина: ' + vehicleBodyLength);
+
+['1','2','3'].map(a =>);
+
+// Request
+data
+response
+
+// snake_case
+// UPPER_SNAKE_CASE
+// Kebab-case
+// PascalCase
+
+const COLOR_RED = '#F00';
+
+const _apiBase = 'https://gateway.marvel.com:433/v1/public/';
+// ЗДЕСЬ БУДЕТ ВАШ КЛЮЧ, ЭТОТ КЛЮЧ МОЖЕТ НЕ РАБОТАТЬ
+const _apiKey = 'apikey=d4eecb0c66dedbfae4eab45d312fc1df';
+
+// udemy
 
 // console.log(name);
 // var name = 'Ivan';
@@ -78,15 +130,15 @@
 
 // 
 
-console.log('arr' + " object");
+console.log('arr' + 'object');
 
-console.log(4 + + "5");
+console.log(4 + + '5');
 
 let incr = 10,
 	decr = 10;
 
-	// ++incr;
-	// --decr;
+// ++incr;
+// --decr;
 
 console.log(++incr);
 console.log(--decr);

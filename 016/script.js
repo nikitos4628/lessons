@@ -43,3 +43,10 @@ const calcl = (a, b) => {
 };
 
 calcl(); 
+
+const calcli = (a, b) => { 
+	console.log("kakakaka");
+	return a + b ;
+};
+
+calcli();
