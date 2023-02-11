@@ -1,5 +1,6 @@
 'use strict';
-
+// 
+// 
 // udemy
 
 let number = 5;
@@ -51,6 +52,8 @@ const _apiBase = 'https://gateway.marvel.com:433/v1/public/';
 const _apiKey = 'apikey=d4eecb0c66dedbfae4eab45d312fc1df';
 
 // udemy
+// 
+// 
 
 // console.log(name);
 // var name = 'Ivan';
