@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 
-const str = 'tEst'
+const str = 'tEst';
 
 console.log(str.toUpperCase());
 console.log(str.toLowerCase());

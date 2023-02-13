@@ -1,4 +1,11 @@
-'use strict'
+'use strict';
+
+// 1.
+// function showFirstMessage() {
+// 	console.log('hi');
+// }
+
+// showFirstMessage();
 
 let num = 20;
 
@@ -14,7 +21,7 @@ console.log(num);
 
 function calc(a, b) {
 	return (a + b);
-};
+}
 
 console.log(calc(4, 3));
 console.log(calc(5, 3));
@@ -31,11 +38,13 @@ function ret() {
 const anotherNum = ret();
 console.log(anotherNum);
 
+
 let logger = function() {
 	console.log('hellooo');
 };
 
 logger();
+
 
 const calcl = (a, b) => {
 	console.log('1');
@@ -44,8 +53,9 @@ const calcl = (a, b) => {
 
 calcl(); 
 
+
 const calcli = (a, b) => { 
-	console.log("kakakaka");
+	console.log('kakakaka');
 	return a + b ;
 };
 
