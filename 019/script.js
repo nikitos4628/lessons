@@ -1,9 +1,9 @@
-'use strict'
+'use strict';
 
 function first() {
 	setTimeout(function() {
 		console.log(1);
-	}, 434)
+	}, 434);
 }
 
 function second() {
