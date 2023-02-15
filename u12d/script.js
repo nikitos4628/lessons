@@ -36,9 +36,9 @@ console.log(arrObj.a);
 console.log(arrObj);
 
 // 
-const arr2 = ['55', '555', '5555']
+const arr2 = ['55', '555', '5555'];
 
-arr2[10] = '3456'
+arr2[10] = '3456';
 
 console.log(arr2[10]);
 
@@ -48,7 +48,7 @@ console.log(arr2);
 const obj = {a: 1, b: 2};
 // Объект
 
-const obj = {
+const obj1 = {
 	Anna: 500,
 	'Alice': 800
 };
