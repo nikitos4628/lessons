@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nikitos4628/lessons#readme",
   "devDependencies": {
-    "eslint": "^8.33.0"
+    "eslint": "^8.33.0",
+    "webpack-cli": "^5.0.1"
   }
 }
